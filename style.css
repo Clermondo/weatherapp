@@ -6,7 +6,8 @@ body {
     margin: 0;
     background: #222;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(https://source.unsplash.com/1600x1000?landscape);
+    background-image: url(https://source.unsplash.com/1980x1000?landscape);
+    font-size: 120%;
 }
 
 .card {
@@ -50,5 +51,6 @@ input.search-bar{
     background: #7c7c7c;
     color: white;
     font-family: inherit;
-    font-size: 120%;
+    font-size: 105%;
+    width: calc(100% - 80px);
 }
